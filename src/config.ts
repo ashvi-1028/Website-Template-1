@@ -1,38 +1,61 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Ashvi Gadagottu",
+  // title: "Senior Software Engineer",
+  description: "Portfolio website of Ashvi Gadagottu",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "gadagottuashvi@gmail.com",
+    // linkedin: "https://linkedin.com/in/ashvigadagottu",
+    // twitter: "https://x.com/ashvigadagottu",
+    // github: "https://github.com/ashvigadagottu",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  aboutMe: `I'm a student with a strong interest in biotechnology, biology, anesthesiology, and bioinformatics.
+Through research, programming, and STEM outreach, I enjoy exploring how science and technology can improve the livelihood of people and the world around us.
+I am passionate about learning and applying my knowledge to solve real-world problems.
+I'm always seeking new opportunities to grow and develop my skills in these fields and one day be able to solve real-world problems.`,
+  skills: [
+    "Research & Data Analysis",
+    "R Programming",
+    "Python Programming",
+    "JavaScript",
+    "Data Visualization",
+    "Scientific Literature Review",
+    "Bioinformatics & FASTQ File Analysis",
+    "STEM Curriculum Development",
+    "Public Speaking & Science Communication",
+    "Collaboration & Problem-Solving",
+  ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Nasa Genelab 2026 Capstone Project",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Participated in Nasa's Genelab for Highschoolers Capstone project. Learned how to analyze OSDR data sets and investigate how spaceflight influences living systems. Through hands-on bioinformatics research, strengthening my skills in data analysis, scientific inquiry, and collaborative problem-solving.",
+      // link: "https://aidevroundup.com/?ref=devportfolio",
+      skills: [
+        "Bioinformatics",
+        "OSDR (Open Science Data Repository) Data Navigation & Analysis",
+        "Biological Data Analysis",
+        "Scientific Research",
+        "Scientific Communication",
+      ],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "NJx Hackathon Summer 2026",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Participated in a local hackathon and developed a working app extension designed to help social media users stay safe online from increasing cybersecurity threats.",
+      // link: "https://fullstackextensions.com/?ref=devportfolio",
+      skills: [
+        "Cybersecurity",
+        "Software Development",
+        "UI/UX Design",
+        "Testing & Debugging",
+        "Product Development",
+      ],
     },
     {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "More Projects Coming Soon!",
+      description: "More projects coming soon.",
+      skills: [],
     },
   ],
   experience: [
@@ -69,23 +92,15 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Princeton High School",
+      degree: "High School Diploma",
+      dateRange: "2024 - 2028",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Overall GPA of 3.77",
+        "Certified graduate of the Think Neuro 2026 Bibliometrics Research Program",
+        "Completed NASA (OSDR) Open Science Training Program",
+        "Selected participant in the University of North Carolina, Chapel Hills Anesthesiology Program 2025",
+        // "President of ___ Club",
       ],
     },
   ],

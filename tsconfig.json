@@ -1,5 +1,14 @@
 {
-  "extends": "astro/tsconfigs/strict",
-  "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist"]
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "jsx": "preserve",
+    "noEmit": true
+  },
+  "include": ["src", "src/**/*.ts", "src/**/*.tsx", "src/**/*.astro", "**/*"],
+  "exclude": ["dist", "node_modules"]
 }
