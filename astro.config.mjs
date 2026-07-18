@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   vite: {
     server: {
-      allowedHosts: ["ashvi-portfolio-https.loca.lt"],
+      allowedHosts: ["ashvi-portfolio-https.loca.lt", "ashvi-portfolio-final.loca.lt"],
     },
     plugins: [tailwindcss()],
   },
